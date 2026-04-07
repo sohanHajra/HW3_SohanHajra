@@ -4,7 +4,7 @@ from pymongo.read_preferences import ReadPreference
 
 app = Flask(__name__)
 
-connection_string = "mongodb+srv://shajra2_db:Sohan2026@hw3.pitsr3c.mongodb.net/?appName=hw3"
+connection_string = "CONNECTION_STRING"
 client = MongoClient(connection_string)
 db = client.ev_db
 
